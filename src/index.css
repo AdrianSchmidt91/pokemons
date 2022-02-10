@@ -11,3 +11,41 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.layout {
+  height: 100vh;
+}
+
+.layout-header {
+  height: 10%;
+  background-color: #57534e;
+}
+
+.layout-content {
+  padding: 1rem;
+  background-color: #57534e;
+}
+
+.layout-footer {
+  height: 10%;
+  background-color: #57534e;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content > h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: yellow;
+  font-size: xxx-large;
+  text-shadow: red 1px 1px;
+  margin: 0;
+}
+
+.searchbar {
+  width: 50%;
+}
